@@ -4,13 +4,14 @@
   "description": "A fake business website",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon ./index.js",
     "ui": "browser-sync start --config bs-config.js"
   },
   "author": "Leo Nguyen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.18.1",
     "pug": "^3.0.2"
   },
   "devDependencies": {
